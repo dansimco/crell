@@ -25,7 +25,7 @@ end
 
 function gen_voltages()
   output[2].volts = (math.random() * octave_range) - (octave_range/2)
-  output[3].volts = (math.random() * mod_range) - (mod_range/2)
+  output[3].volts = (math.random() * mod_range)
   output[4]()
   local attack_time = math.ceil(attack_max * math.random()) / 1000  
   return attack_time
