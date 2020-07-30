@@ -1,7 +1,7 @@
 --- Crell
 -- Dan Sim 2020.07.30
 -- Krell in Crow
--- in1: Attack/Decay shape tilt (-5V - 10V)
+-- in1: Attack/Decay shape tilt (-5V - +5V)
 -- in2: Total envelope length (0V - 10V)
 -- out1: Envelope
 -- out2: Random voltages (-2V - 2V)
@@ -27,7 +27,7 @@ function gen_voltages()
   output[2].volts = (math.random() * octave_range) - (octave_range/2)
   output[3].volts = (math.random() * mod_range)
   output[4]()
-  local attack_time = math.ceil(attack_max * math.random()) / 1000  
+  local attack_time = math.ceil(attack_max * math.random()) / 1000
   return attack_time
 end
 
