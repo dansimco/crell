@@ -1,6 +1,9 @@
-# A Krell inspired random sequencer
+
+# A Krell inspired random sequencer for monome crow
 
 [What/Who's a krell??](http://manual-synthesis.info/2017/01/26/krell/)
+
+[What/Who's a crow??](https://monome.org/docs/crow/)
 
 ## crell
 crell with a *tilt* style attack/decay input and a max-envelope-time input
